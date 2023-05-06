@@ -1,0 +1,17 @@
+a=int(input("enter 1st number"))
+b=int(input("enter 2nd number"))
+print("calculator")
+print("1.add\n 2.subtract\n 3.divide\n 4.multiply\n 5.modulo\n")
+c=int(input("enter your choice"))
+if c==1:
+    print("result=",a+b)
+elif c==2:
+    print("result=",a-b)
+elif c==3:
+    print("result=",a/b)
+elif c==4:
+    print("result=",a*b)
+elif c==5:
+    print("result=",a%b)
+else:
+    print("plz enter write choice")
